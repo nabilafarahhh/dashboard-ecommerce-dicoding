@@ -55,7 +55,7 @@ category_sales = category_sales.sort_values(by='total_sales', ascending=False).h
 
 # VISUALIZATION
 st.markdown("---")
-
+plt.figure(figsize=(14,6))
 # 📈 Revenue Trend
 st.subheader(f'📈 Revenue Bulanan ({start_date} - {end_date})')
 fig, ax = plt.subplots()
